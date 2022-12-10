@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.header{
+    background: url(images/bannner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size:cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%
+
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.register-btn{
+    background: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.container{
+    padding: 0 7%;
+}
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color:#fff;
+    text-align: center;
+    padding-top: 22%;
+}
+.search-bar{
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.search-bar form button{
+    background: #ff5361;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.location-input{
+    flex: 1;
+}
+.search-bar form label{
+    font-weight: 600;
+}
+
+/*------exclusives------
+
+}   
+
+*/
+
+
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+
+}
+.Exclusive{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.Exclusive div img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+
+
+.cta{
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #3f2321, transparent),url(images/bannerrr.png);
+    background-size: cover;
+    width: 85%;
+    height: 290px;
+    background-position: center;
+    border-radius: 10%;
+    color: #fff;
+    margin-left: 8%;
+
+}
+.cta h3{
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 10px 0;
+    text-align: center;
+}
+
+.cta p{
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+}
+.cta-btn{
+   background: #ff6753;
+   color: #fff;
+   text-decoration: middle;
+   padding: 12px 30px;
+   border-radius: 8px;
+   margin-top: 20px 7%;
+   display: inline-block;
+   
+   
+}
+.knn{
+    text-align: center;
+}
+.stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.stories img{
+    width: 250px;
+    border-radius: 18px;
+} 
+.stories div{
+    position: relative;
+    text-align: center;
+}  
+.stories p{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 26px;
+    
+
+}
+.start-btn{
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.about-msg{
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 170x;
+
+}
+
+.about-msg h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+
+}
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.Register-now{
+    background-image: url(images/imagessssss.jpg);
+    width: 330px;
+    height: 500px;
+    padding: 30px;
+    margin-left: 60px;
+    justify-content: center;
+    border: 5px solid #34495e;
+    border-radius: 10px;
+    outline: none;
+    background: rgba(52, 73, 94, 1);
+    font-family: sans-serif;
+    
+    
+}
